@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Item Detail</title>
-</head>
-<body>
-    <h1>{{ item.meal }}</h1>
-    <p>Ingredients:{{ item.description }}</p>
-    <p>Price: {{ item.price }}$</p>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <h1 class="mt-4 mb-4">{{ item.meal }}</h1>
+        <p>Ingredients: {{ item.description }}</p>
+        <p>Price: {{ item.price }}$</p>
+    </div>
+{% endblock content %}
