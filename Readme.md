@@ -41,7 +41,7 @@ db.sqlite3
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/Nibir2405/restaurant_menu.git
     cd restaurant_menu
     ```
 
